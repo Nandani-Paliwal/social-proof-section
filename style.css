@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+body{
+     /* overflow:hidden;  */
+     font-family: 'Spartan' ,sans-serif;
+     
+}
+.imgtop{
+    position: absolute;
+}
+.imgbot{
+    position: absolute;
+    top:8em;
+    right: 0em;
+    bottom: 17em;
+    left: 0em;
+}
+.text{
+    /* position: absolute;
+    top: 4em;
+    right: 0ch;
+    bottom: 0em;
+    left: 9em;
+     */
+     display: inline-flex;
+     flex-direction: column;
+     margin-top: 7rem;
+     margin-left: 7em;
+
+}
+.text h1{
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+    width: 10em;
+}
+.text p{
+    color: grey;
+    font-weight: 600;
+    width: 30em;
+}
+.rates{
+    /* position: absolute;
+    top: 4em;
+    right: 0em;
+    bottom: 0em;
+    left: 47em; */
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+    margin:  2em auto;
+    font-size: 0.9em;
+}
+.reveiw{
+    display: flex;
+    background-color: #f7daf7;
+    padding: 1em;
+    width: 25em;
+    border-radius: 1em;
+    
+}
+.star{
+    justify-content:space-evenly;
+    text-align: center;
+    padding: 0.5em;
+    
+}
+.reveiw p{
+    color:hsl(300, 43%, 22%);
+    justify-content: center;
+    text-align: center;
+    padding: 0.5em;
+    
+}
+.reveiwg{
+    display: flex;
+    background-color: #f7daf7;
+    padding: 1em;
+    width: 27em;
+    border-radius: 1em;
+    margin: 1em;
+    left: 54em;
+}
+.reveiwg p{
+    color:hsl(300, 43%, 22%);
+    justify-content: center;
+    text-align: center;
+    padding: 0.5em;
+}
+.reveiwt{
+    display: flex;
+    background-color: #f7daf7;
+    padding: 1em;
+    width: 25em;
+    border-radius: 1em;
+    left: 60em;
+}
+.reveiwt p{
+    color:hsl(300, 43%, 22%);
+    justify-content: center;
+    text-align: center;
+    padding: 0.5em;
+}
+.container{
+    /* background-color:hsl(300, 43%, 22%) ; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 22em; */
+    /* height: 17rem; */
+    padding: 0.5em 2.5rem;
+    /* margin-top: 1rem; */
+    border-radius: 0.8em;
+    /* position: absolute;
+    top: 18em;
+    right:0em;
+    bottom: 7em;
+    left: 7em; */
+}
+.card1{
+    background-color:hsl(300, 43%, 22%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 22em; */
+    height: 13em;
+    padding: 1.3em;
+    margin: 1rem 1rem auto 1rem;
+    border-radius: 0.8em;
+}
+
+.card1 h4{
+    color: white;
+    
+    /* padding: 0.2em; */
+}
+.card1 h5{
+    color:hsl(302, 42%, 44%);
+    font-size: 0.9em;
+}
+.A{
+    display:flex;
+    align-items:center ;
+    position: relative;
+    top: 0em;
+    right: 20em;
+    bottom: 0em;
+    left: 1em;
+}
+.card1 p{
+    color: white;
+    padding: 0.8em;
+    font-size: 0.7em;
+    line-height: 1.8em;
+    /* object-fit: none;
+    object-position: 50px 30px; */
+}
+.card2{
+    background-color:hsl(300, 43%, 22%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 22em; */
+    height: 13em;
+    padding: 1.3em;
+    margin: 2rem 1rem auto 1rem;
+    border-radius: 0.8em;
+    /* position: absolute;
+    top: 2em;
+    right:103em;
+    bottom: 0em;
+    left: 24em;*/
+} 
+.pic{
+    border-radius:30em;
+    height: 3.5em;
+    width: 3.5em;
+    margin-right: 1rem;
+    
+  
+    /* display: flex;
+    justify-content: start; */
+    
+}
+.card2 h4{
+    color: white;
+    /* padding: 0.2em; */
+}
+.card2 h5{
+    color:hsl(302, 42%, 44%);
+    font-size: 0.9em;
+}
+.card2 p{
+    color: white;
+    padding: 0.8em;
+    font-size: 0.7em;
+    line-height: 1.8em;
+}
+.card3{
+    background-color:hsl(300, 43%, 22%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    /* width: 22em; */
+    height: 13em;
+    padding: 1.3em;
+    margin: 3rem 1rem auto 1rem;
+    border-radius: 0.8em;
+    /* position: absolute;
+    top: 2em;
+    right:103em;
+    bottom: 0em;
+    left: 24em; */
+}
+
+.card3 h4{
+    color: white;
+    /* padding: 0.2em; */
+}
+.card3 h5{
+    color:hsl(302, 42%, 44%);
+    font-size: 0.9em;
+}
+.card3 p{
+    color: white;
+    padding: 0.8em;
+    font-size: 0.7em;
+    line-height: 1.8em;
+}
+@media screen and (max-width:700px) {
+    .rates{
+        flex-direction: column;
+        /* margin-bottom: 7rem; */
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+        margin-top: 6rem;
+        justify-content: center;
+    }
+}
